@@ -1,3 +1,4 @@
+package Learning.AlarmSystem;
 public class Alarm{
     protected String message;
     private boolean active;

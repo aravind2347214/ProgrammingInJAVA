@@ -1,3 +1,5 @@
+package Learning.AlarmSystem;
+
 public class Industry {
 public static void main(String[] args) {
     Alarm a0=new Alarm();

@@ -1,3 +1,4 @@
+package Learning.RandomNumber;
 import java.util.*;
 public class App {
 

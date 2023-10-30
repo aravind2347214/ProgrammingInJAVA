@@ -7,7 +7,8 @@ public static void main(String[] args) {
     a0.displayAlarmDetails();
     a1.displayAlarmDetails();
     a1.register(null, 0);
-    SnoozableAlarm s1 =new SnoozableAlarm("Snoozable message", 2000);
+    SnoozableAlarm s1 =new SnoozableAlarm("First Snoozable message", 2000);
+    SnoozableAlarm s2 =new SnoozableAlarm("Second Snoozable message", 5000);
 }
     
 }

@@ -13,11 +13,18 @@ public class Alarm{
         this.phone=new ArrayList<String>();
     }
 
-    Alarm( String message,boolean active,String phone){
+    Alarm( String message,boolean active){
         this.message = message;
         this.active=active;
-        // this.phone= phone;
     }
+
+    Alarm(Alarm temp){
+         this.message=temp.message;
+         this.active= temp.active;
+         this.phone=temp.phone;
+    }
+
+
 
     public void visualize(){
 

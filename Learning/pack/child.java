@@ -3,6 +3,10 @@ import Learning.mypack.parent;
 
 public class child extends parent {
 
+    private void fun4(){
+        System.out.println("This is private function of child");
+    }
+
     @Override
     protected void fun2(){
         System.out.println("Child Protected Function");
@@ -39,6 +43,12 @@ public class child extends parent {
         ob1.fun2();
         ob1.fun3();
         ob1.something();
+
+        try {
+            ob1.fun4();
+        } catch (Exception e) {
+            System.out.println("Error has occured : "+e);
+        }
     }
     
 }

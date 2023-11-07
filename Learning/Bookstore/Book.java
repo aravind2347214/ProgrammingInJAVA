@@ -1,4 +1,4 @@
-package Labworks.LabEx1Bookstore;
+package Learning.Bookstore;
 
 public class Book {
     private String bookId;

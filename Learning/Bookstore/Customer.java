@@ -1,4 +1,4 @@
-package Labworks.LabEx1Bookstore;
+package Learning.Bookstore;
 
 import java.util.*;
 

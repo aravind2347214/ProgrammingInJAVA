@@ -30,7 +30,14 @@ public class StringManipulation {
         System.out.println("\ntextString compareTo newTextString : "+textString.compareTo(newTextString));
         System.out.println("\ntextString == newTextString : "+textString==newTextString);
         System.out.println("\nLength of String textString  : "+textString.length());
-        System.out.println("\nTo charArray : "+textString.toCharArray());
+        charray = textString.toCharArray();
+        //  print the charrray
+        System.out.print("Character array of string by toCharArray: ");
+        for (int i=0 ;i<charray.length;i++)
+        {
+                if(i%50==0){System.out.println();}
+                else{System.out.print(charray[i]+"\t");}
+        }
         System.out.println("\nCharAt method at index 3 : "+textString.charAt(3));
         System.out.println("\nSubstring Method from 4 to 7 : "+textString.substring(4,7));
         System.out.println("\nIndexOf Method of  'a' : "+textString.indexOf('a'));

@@ -1,4 +1,4 @@
-package Labworks.LabEx21;
+package Labworks.LabEx2;
 
 public class StringManipulation2 {
 public static void main(String[] args) {

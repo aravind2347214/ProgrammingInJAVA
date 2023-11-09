@@ -1,4 +1,4 @@
-package Labworks.LabEx21;
+package Labworks.LabEx2;
 import java.util.*;
 public class StringManipulation {
 

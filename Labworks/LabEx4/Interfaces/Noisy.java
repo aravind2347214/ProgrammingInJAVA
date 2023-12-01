@@ -1,5 +1,5 @@
-package Labworks.LabEx4.Interfaces;
+    package Labworks.LabEx4.Interfaces;
 
-public interface Noisy {
-    void makeNoise();
-}
+    public interface Noisy {
+        void makeNoise();
+    }

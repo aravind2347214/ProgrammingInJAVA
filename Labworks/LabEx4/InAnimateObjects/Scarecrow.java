@@ -10,7 +10,6 @@ public class Scarecrow implements Noisy {
         this.AvgCrows=AvgCrows;
     }
 
-
     @Override
     public void makeNoise() {
         System.out.println(this.name+" The Scarecrow scaring "+this.AvgCrows+"crows a day");

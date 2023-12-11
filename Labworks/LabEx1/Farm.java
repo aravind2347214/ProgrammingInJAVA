@@ -11,6 +11,7 @@ public class Farm {
         c2.doWork(5);
         System.out.println("------------------------\n");
         c2.showCowDetails();
-    }
-    
+        System.out.println("\n");
+        c1.showCowDetails();
+    }   
 }

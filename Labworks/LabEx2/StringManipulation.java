@@ -1,5 +1,4 @@
 package Labworks.LabEx2;
-import java.util.*;
 public class StringManipulation {
 
     public static String textString ="We realizes that while our workers were thriving, the\r\n" + 

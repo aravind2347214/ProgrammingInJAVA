@@ -10,6 +10,7 @@ public class App {
             Scanner sc = new Scanner(System.in);
             System.out.print("Enter your guess: ");
             int userNumber = sc.nextInt();
+            sc.close();
             if (userNumber == number){
                 System.out.println("\nCongratulation You Guessed it Right!");
                 counter=0;

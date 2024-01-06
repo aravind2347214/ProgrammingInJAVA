@@ -43,7 +43,8 @@ public class PigTranslator {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your String : ");
         String str = sc.nextLine();
-        System.out.println("The Latin Pig String is : "+translatePigLatin(str));        
+        System.out.println("The Latin Pig String is : "+translatePigLatin(str)); 
+        sc.close();       
     }
     
 }

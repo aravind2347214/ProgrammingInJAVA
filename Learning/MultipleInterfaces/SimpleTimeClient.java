@@ -25,5 +25,11 @@ public class SimpleTimeClient implements TimeClient {
     public void setDateAndTime(int day,int month,int year,int hour ,int min,int second){
 
     }
+
+    @Override
+    public LocalDateTime getLocalDateTime() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getLocalDateTime'");
+    }
     
 }

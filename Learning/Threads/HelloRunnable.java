@@ -1,4 +1,4 @@
-package Learning.Threads;
+
 public class HelloRunnable implements Runnable {
 
     public void run() {

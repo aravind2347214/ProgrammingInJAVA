@@ -4,7 +4,9 @@ public class Animal {
     private String name;
     private int age;
     Animal(){
-        this("", 0); // default constructor
+        // this("", 0); // default constructor
+        this.name="";
+        this.age=0;
     }
     Animal(String name, int age) {
         this.name = name;

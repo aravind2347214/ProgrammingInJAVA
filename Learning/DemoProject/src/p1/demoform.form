@@ -204,7 +204,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="bedc5" class="javax.swing.JButton" default-binding="true">
+      <component id="bedc5" class="javax.swing.JButton" binding="deleteButton">
         <constraints>
           <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <forms/>
@@ -213,7 +213,7 @@
           <text value="Delete"/>
         </properties>
       </component>
-      <component id="15153" class="javax.swing.JButton" default-binding="true">
+      <component id="15153" class="javax.swing.JButton" binding="updateButton">
         <constraints>
           <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <forms/>
@@ -222,7 +222,7 @@
           <text value="Update"/>
         </properties>
       </component>
-      <component id="a63d0" class="javax.swing.JButton" default-binding="true">
+      <component id="a63d0" class="javax.swing.JButton" binding="selectButton">
         <constraints>
           <grid row="18" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <forms/>

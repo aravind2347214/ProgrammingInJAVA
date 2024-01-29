@@ -107,7 +107,7 @@ public class Main {
 
         System.out.print("Enter number of legs: ");
         int legs = sc.nextInt();
-        FarmAnimal newAnimal = new FarmAnimal(name,legs);
+        // FarmAnimal newAnimal = new FarmAnimal(name,legs);
 
         try {
             PreparedStatement insertStatement = conn.prepareStatement(INSERT_ANIMAL_SQL);
@@ -188,13 +188,8 @@ public class Main {
             } else {
                 System.out.println("Failed to update animal with ID :"+updateId);
             }
-
-
         }catch (Exception e){
             e.printStackTrace();
         }
-
-
     }
-
 }
